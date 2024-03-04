@@ -1,4 +1,4 @@
-#' My_theme function
+#' My theme function
 #'
 #' @param background A color to set the theme's background.
 #' @param line A style for the lines around the border.
