@@ -10,7 +10,7 @@
 #' @examples
 #' my_theme("red", "longdash", "yellow")
 my_theme <- function(background = "darkblue", line = "dashed", panel = "lightskyblue") {
-    theme <- ggplot2::theme(plot.background = element_rect(fill = background), panel.border = element_rect(linetype = line, 
-        fill = NA), panel.background = element_rect(fill = panel, colour = "grey50"))
+    theme <- ggplot2::theme(plot.background = ggplot2::element_rect(fill = background), panel.border = ggplot2::element_rect(linetype = line, 
+        fill = NA), panel.background = ggplot2::element_rect(fill = panel, colour = "grey50"))
     return(theme)
 }
